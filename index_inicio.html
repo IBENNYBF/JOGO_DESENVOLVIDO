@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerrariaCraft: Block & Adventure</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/index_inicio.css">
+</head>
+
+
+
+
+
+<body>
+    <div class="pixel-bg"></div>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">TERRARIACRAFT</a>
+            <ul class="nav-links">
+                <li><a href="#intro">Introdução</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="./login.php">Login</a></li>
+                <li><a href="./register.php">Cadastro</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>TERRARIACRAFT:<br>BLOCK & ADVENTURE</h1>
+            <p class="hero-subtitle">
+                Explore cavernas misteriosas, construa seu próprio mundo, enfrente criaturas perigosas e evolua seu
+                personagem em uma aventura sandbox cheia de possibilidades.
+            </p>
+
+            <div class="splash-text" id="splashText"></div>
+
+            <div class="hero-badges">
+                <span class="badge">👻2D PLATFORM</span>
+                <span class="badge">⌛SANDBOX</span>
+                <span class="badge">👾PIXEL ART</span>
+                <span class="badge">⚔️ COMBATE</span>
+                <span class="badge">🌎 MUNDO ABERTO</span>
+                <span class="badge">🏗️ CONSTRUÇÃO</span>
+                <span class="badge">🎒 LOOT</span>
+                <span class="badge">👹 INIMIGOS</span>
+                <span class="badge">⛏️ EXPLORAÇÃO</span>
+            </div>
+            <div class="hero-cta">
+                <a href="./login.php" class="btn btn-primary">▶ INICIAR AVENTURA</a>
+                <button class="music-btn" id="musicButton" onclick="toggleMusic()">
+                    🔊
+                </button>
+                <a href="./register.php" class="btn btn-secondary">📝 CADASTRAR</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="intro">
+        <h2 class="section-title">INTRODUÇÃO</h2>
+        <div class="intro-grid">
+            <div class="intro-text">
+                <p>
+                    <strong>TerrariaCraft: Block & Adventure</strong> é uma experiência sandbox 2D em pixel art onde
+                    cada jogador cria sua própria jornada.
+                </p>
+
+                <p>
+                    Explore florestas, cavernas e territórios desconhecidos enquanto coleta recursos, constrói
+                    estruturas, encontra criaturas perigosas e desbloqueia novos equipamentos.
+                </p>
+
+                <p>
+                    O mundo está em constante evolução. Cada exploração pode revelar novos desafios, tesouros escondidos
+                    e áreas secretas esperando para serem descobertas.
+                </p>
+
+                <p>
+                    Escolha seu estilo de jogo: torne-se um construtor, explorador, guerreiro ou aventureiro completo.
+                </p>
+            </div>
+            <div
+                style="text-align:center; padding:2rem; background:rgba(30,41,59,0.5); border:2px solid #334155; border-radius:8px;">
+                <div style="font-size:4rem; margin-bottom:1rem;">🎮</div>
+                <p style="color:#94a3b8;">Protótipo em execução</p>
+                <p style="font-size:0.8rem; margin-top:0.5rem;">
+                    <a href="./login.php" style="color: var(--primary);">Clique aqui para jogar</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2 class="section-title">RECURSOS DO JOGO</h2>
+
+        <div class="features-grid">
+
+            <div class="feature-card">
+                <div class="feature-icon">🌎</div>
+                <h3>EXPLORAÇÃO</h3>
+                <p>
+                    Descubra cavernas misteriosas, áreas ocultas e diferentes regiões cheias de segredos e desafios.
+                </p>
+                <span class="status-tag status-done">✅ DISPONÍVEL</span>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⚔️</div>
+                <h3>COMBATE</h3>
+                <p>
+                    Enfrente criaturas perigosas, sobreviva a batalhas intensas e evolua seus equipamentos ao longo da
+                    jornada.
+                </p>
+                <span class="status-tag status-done">✅ DISPONÍVEL</span>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🏗️</div>
+                <h3>CONSTRUÇÃO</h3>
+                <p>
+                    Construa casas, fortalezas, bases subterrâneas e personalize o mundo do seu jeito.
+                </p>
+                <span class="status-tag status-done">✅ DISPONÍVEL</span>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎒</div>
+                <h3>INVENTÁRIO</h3>
+                <p>
+                    Colete recursos, organize seus itens e prepare-se para novas aventuras e descobertas.
+                </p>
+                <span class="status-tag status-done">✅ DISPONÍVEL</span>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">👹</div>
+                <h3>CRIATURAS</h3>
+                <p>
+                    O mundo é habitado por criaturas hostis e cada encontro pode se tornar um grande desafio.
+                </p>
+                <span class="status-tag status-done">✅ DISPONÍVEL</span>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⛏️</div>
+                <h3>PROGRESSÃO</h3>
+                <p>
+                    Evolua seu personagem, desbloqueie novos recursos e fique mais forte a cada exploração.
+                </p>
+                <span class="status-tag status-done">✅ DISPONÍVEL</span>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">TERRARIACRAFT</div>
+        <p class="footer-text">
+            Projeto desenvolvido como trabalho integrador.<br>
+            Programação, desenvolvimento web e design de jogos.
+        </p>
+        <p class="footer-copy">
+            © 2026 TERRARIACRAFT - BLOCK & ADVENTURE v5.4
+        </p>
+    </footer>
+    <!-- puxa o audio -->
+    <audio id="bgMusic"></audio>
+    <!-- puxa o java -->
+    <script src="./js/index_inicio.js"></script>
+
+
+
+</body>
+
+
+</html>
