@@ -20,7 +20,7 @@
 
         
 
-        <form method="POST" action="./jogo.php">
+        <form method="POST" action="./verificar.php">
             
         <div class="form-group">
                 <label for="email">📧 Email</label>
