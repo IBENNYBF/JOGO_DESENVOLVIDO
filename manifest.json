@@ -1,0 +1,24 @@
+{
+  "name": "TerrariaCraft: Block & Adventure",
+  "short_name": "TerraCraft",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#7ec850",
+  "theme_color": "#3b8c3a",
+  "orientation": "portrait-primary",
+  "description": "Explore, mine e construa em um mundo que mistura Terraria com Minecraft.",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

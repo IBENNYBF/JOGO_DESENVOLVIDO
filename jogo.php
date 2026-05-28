@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TerrariaCraft - Jogo v5.4</title>
+    <title>TerrariaCraft - Jogo v6.0</title>
     <link rel="stylesheet" href="css/jogo.css">
 </head>
 <body>
@@ -51,7 +51,7 @@
         <div id="startScreen">
             <div class="start-content">
                 <h1>🎮 TERRARIACRAFT</h1>
-                <p class="subtitle">Block & Adventure v5.4</p>
+                <p class="subtitle">Block & Adventure v6.0</p>
                 <input type="text" id="worldSeed" placeholder="Seed do mundo (opcional)" maxlength="20">
                 <input type="text" id="playerName" placeholder="Nome do jogador" maxlength="20" style="opacity:0.7;background:#0f172a;">
                 <div class="buttons">
@@ -85,8 +85,8 @@
             </div>
         </div>
     </div>
+    
 
-<!--<script src="./auth.js"></script>-->
 <script src="js/jogo.js"></script>
 </body>
 </html>

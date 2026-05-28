@@ -43,6 +43,12 @@
             <button type="submit" class="btn-submit" >▶ ENTRAR</button>
         </form>
 
+        <div style="text-align:center; margin: 10px 0;">
+            <a href="./update_senha.php" style="color:#4ade80; font-size:12px; text-decoration:none; opacity:0.8;">
+                🔒 Esqueci minha senha
+            </a>
+        </div>
+
         <div class="divider">
             <span>ou</span>
         </div>
